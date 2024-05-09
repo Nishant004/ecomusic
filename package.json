@@ -1,0 +1,24 @@
+{
+  "name": "ecomusicplayer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+     "start": "nodemon server.js",
+     "server" : "nodemon server.js",
+     "build":"npm install --prefix ./client && npm run build --prefix ./client && npm install",
+  "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.37.3",
+    "dotenv": "^16.1.4",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.6.11",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.22"
+  }
+}
